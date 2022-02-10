@@ -6,6 +6,6 @@ https://documenter.getpostman.com/view/6273826/UVeMGNgu
 
 1 . User Can Register with laravel validation request. <br/>
 2 . User Can Login with laravel validation request. <br/>
-3 . When the survey form submitted I sent and email to the authenicated user. <br/>
+3 . After submitting survey form, I sent an email to the authenicated user. <br/>
 [ I create the surveyform submit with laravel services ]<br/>
 4 . Survey Form List with Resource 
