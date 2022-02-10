@@ -5,15 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class SurveyQuestion extends Model
+class SurveyQuestionOption extends Model
 {
     use HasFactory;
-    protected $table = "survey_questions";
+    protected $table = "survey_question_options";
 
     protected $fillable = [
-        'survey_id',
-        'title',
+        'name',
         'type',
-        'order'
+        'question_id'
     ];
+
 }
