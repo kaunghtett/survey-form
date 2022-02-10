@@ -16,4 +16,8 @@ class SurveyQuestion extends Model
         'type',
         'order'
     ];
+
+    public function options() {
+        return $this->hasMany(SurveyQuestionOption::class,'id');
+    }
 }
