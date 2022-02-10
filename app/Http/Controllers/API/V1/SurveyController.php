@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 class SurveyController extends ApiController
 {
     //
-    public function store(Request $request) {
+    public function submitForm(Request $request) {
         return 'HI';
     }
 }
